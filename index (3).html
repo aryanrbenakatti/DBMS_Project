@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum of Subsets Problem</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Sum of Subsets Problem</h1>
+        <label for="numbers">Enter numbers (comma-separated):</label>
+        <input type="text" id="numbers" placeholder="e.g., 1, 2, 3, 4">
+
+        <label for="target">Enter target sum:</label>
+        <input type="number" id="target" placeholder="e.g., 5">
+
+        <button onclick="findSubsets()">Calculate Subsets</button>
+        <a href="tree.html" class="button">show tree</a>
+
+        <h2>Results:</h2>
+        <pre id="results"></pre>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
